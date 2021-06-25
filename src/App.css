@@ -1,0 +1,49 @@
+.main-container {
+  display: flex;
+}
+
+.history-tab {
+  flex: 50%;
+  text-align: center;
+  background-color: rgb(251, 255, 240);
+}
+
+.playground {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  flex: 50%;
+}
+
+.result {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.history-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  font-size: 12px;
+  background-color: rgb(230, 236, 206);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+
+}
+
+.num-form {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.history-board { 
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
